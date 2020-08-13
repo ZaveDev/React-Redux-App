@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+  background: #181A1B;
+  color:white;
+}
 .App {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -37,4 +41,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+.spell-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center ;
+
+}
+.spell {
+  border: 2px solid white;
+  width: 15%;
+  margin: 2%;
+  transition: all 0.3s ease-in-out;
+}
+.spell:hover{
+  cursor: pointer;
+  background: #61dafb;
+  transition: all 0.3s ease-in-out;
+}
+.spell-wide{
+  border: 4px solid #61dafb;
+  margin: 2%;
+  padding: 2%;
+  transition: all 0.3s ease-in-out;
+  width: 80%;
+}
+.spell-wide:hover{
+  cursor: pointer;
+  background: #61dafb;
+  transition: all 0.3s ease-in-out;
+}
+.hide{
+  display: none;
+  transition: all 2s ease-in-out;
 }

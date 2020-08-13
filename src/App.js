@@ -1,12 +1,12 @@
 import React from 'react';
-
+import Spells from './components/Spells'
 import './App.css';
-//https://www.dnd5eapi.co/api/
+
 function App() {
   
   return (
     <div className="App">
-
+      <Spells/>
     </div>
   );
 }

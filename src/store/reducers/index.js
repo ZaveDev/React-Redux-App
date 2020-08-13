@@ -1,0 +1,1 @@
+export { spellReducer } from './spellReducer'
